@@ -14,6 +14,8 @@ mod platform;
 mod quota;
 mod running;
 mod scrollback;
+#[cfg(test)]
+mod session_registry;
 mod sessions;
 mod subscriptions;
 mod supervisor;
